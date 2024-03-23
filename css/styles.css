@@ -1,6 +1,7 @@
 body {
-  font-family: Roboto, Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   color: #434455;
+  background-color: #fff;
 }
 
 a {
@@ -17,10 +18,10 @@ ul {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .header-logo-italic {
@@ -33,25 +34,47 @@ ul {
   color: #4d5ae5;
 }
 
+.span {
+  color: #2e2f42;
+}
 .header-menu-link {
   font-weight: 500;
-  font-size: 16px;
+  color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
 }
 
 .header-menu-link:hover .header-menu-link:focus {
   color: #404bbf;
 }
 
-.header-menu-link-studio:active
-  .header-menu-link-studio:active
-  .header-menu-link-studio:active {
+.header-menu-link-studio:active {
+  color: #404bbf;
+}
+.header-menu-link-studio:hover {
   color: #404bbf;
 }
 
-.header-contacts {
+.header-menu-link-studio:focus {
+  font-weight: 500;
+  color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ------------------------------------- */
+
+/* ----------------address----------------- */
+.address {
+}
+.address-list {
+}
+
+.address-item {
+}
+
+.address-link {
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -63,15 +86,29 @@ ul {
   color: #404bbf;
 }
 
+.header-contacts:focus {
+  color: #404bbf;
+}
+
+/* --------------------------------------- */
+
+/* ----------------main-------------- */
+
+.main {
+  background-color: #2e2f42;
+}
+
 .head-main {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  text-align: center;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #ffffff;
 }
 
 .main-button {
+  font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -80,12 +117,13 @@ ul {
   color: #fff;
 }
 
-.main-button:hover {
+.main-button:focus {
   background-color: #404bbf;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: #fff;
 }
 /* ---------------------------------- */
@@ -115,24 +153,30 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
 }
 /* ---------------------------------- */
 /* -------------team ------------*/
+
 .team {
+  background-color: #f4f4fd;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
+.team-header {
+  text-align: center;
+  text-transform: capitalize;
+}
+
 .team-item {
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-pictures {
-  width: 264px;
-  height: 260px;
 }
 
 .team-name {
@@ -153,9 +197,14 @@ ul {
 /*-------------------------------- */
 /* ---------- products----------*/
 .product {
+}
+
+.product-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
@@ -187,8 +236,10 @@ ul {
 
 /* ----------footer----------*/
 .footer {
+  background-color: #2e2f42;
 }
 .header-logo {
+  line-height: 1.17;
 }
 .header-logo-italic {
 }
@@ -196,5 +247,5 @@ ul {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #f4f4fd;
 }
