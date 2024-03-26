@@ -14,6 +14,12 @@ ul {
 /* -------------------------------------- */
 /*------------ header---------------- */
 
+.header {
+}
+
+.header.nav {
+}
+
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -27,17 +33,10 @@ ul {
 .span-logo {
   color: #2e2f42;
 }
-
-.header-menu-link {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
+.header-list {
 }
 
-.header-menu-link:hover .header-menu-link:focus {
-  color: #404bbf;
+.header-items {
 }
 
 .header-link:active {
@@ -91,10 +90,17 @@ ul {
 /* ----------------main-------------- */
 
 .main {
+}
+
+/* --------------------------------------- */
+
+/* ----------------solutions----------------------- */
+
+.solution {
   background-color: #2e2f42;
 }
 
-.head-main {
+.solution-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -103,7 +109,7 @@ ul {
   color: #ffffff;
 }
 
-.main-button {
+.solution-button {
   font-family: "Roboto", sans-serif;
   background-color: #4d5ae5;
   font-weight: 500;
@@ -113,7 +119,7 @@ ul {
   color: #fff;
 }
 
-.main-button:focus {
+.solution-button:focus {
   background-color: #404bbf;
   font-weight: 500;
   font-size: 16px;
@@ -122,7 +128,7 @@ ul {
   cursor: pointer;
   color: #fff;
 }
-.main-button:hover {
+.solution-button:hover {
   background-color: #404bbf;
 }
 
@@ -130,6 +136,9 @@ ul {
 /*---------- features ------------*/
 
 .features {
+}
+
+.features-title {
   clip-path: inset(50%);
   overflow: hidden;
   white-space: nowrap;
@@ -171,9 +180,11 @@ ul {
 
 .team-item {
 }
+
 .team-list {
   background-color: #ffffff;
 }
+
 .team-pictures {
 }
 
@@ -234,10 +245,10 @@ ul {
 .footer {
   background-color: #2e2f42;
 }
-.header-logo {
+.footer-logo {
   line-height: 1.17;
 }
-.header-logo-italic {
+.footer-logo-italic {
   color: #f4f4fd;
 }
 .footer-text {
